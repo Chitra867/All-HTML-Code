@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+     <link rel="shortcut icon" href="https://plus.unsplash.com/premium_photo-1682002135678-87b8a2fdde50?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bG9nb3xlbnwwfHwwfHx8MA%3D%3D" type="image/x-icon">
+     <link rel="apple-touch-icon" href="https://plus.unsplash.com/premium_photo-1682002135678-87b8a2fdde50?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bG9nb3xlbnwwfHwwfHx8MA%3D%3D">
+    <title>Form</title>
+</head>
+<body>
+    
+    <form action="">
+        <fieldset>
+            <legend>Fill out all the Filds</legend>
+        <label for="firstname">FirstName</label><br>
+        <input type="text" name="firstname" id="firstname" placeholder="Enter your firstname" required><br>
+        <label for="lastname">LastName</label><br>
+        <input type="text" name="lastnae" id="lastname" placeholder="Enter your lastname" required><br>
+        <label for="email">Email</label><br>
+        <input type="email" name="email" id="email" placeholder="example@gmil.com" required><br>
+        <label for="DOB">Date of Birth</label><br>
+        <input type="date" name="DOB" id="DOB" required><br>
+        <label>Gender</label>
+        <input type="radio" name="gender" value="male" checked>Male
+        <input type="radio" value="female">Female
+        <input type="radio" value="other">Other<br>
+        <label>Choose any two Subject</label>
+        <br>
+        <input type="checkbox" name="subject" value="web">web
+        <input type="checkbox" name="subject" value="networking">Networking
+        <input type="checkbox" name="subject" value="graphics">Graphics
+        <input type="checkbox" name="subject" value="cybersecurity">CyberSecurity
+        <br>
+        <label for="district">District</label>
+        <select name="district" id="district">
+            <option value="kathmandu">Kathmandu</option>
+            <option value="pokhara">Pokhara</option>
+            <option value="rukum">Rukum</option>
+            <option value="dolpa">Dolpa</option>
+            <option value="rolpa">Rolpa</option>
+        </select>
+        <br>
+        <label for="message">Review</label>
+        <br>
+        <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+        <br>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" required>
+        <br>
+        <label for="upload">File Upload</label>
+        <br>
+        <input type="file" name="upload" id="upload" required>
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset"> 
+
+    </form>
+</fieldset>
+    
+</body>
+</html>
